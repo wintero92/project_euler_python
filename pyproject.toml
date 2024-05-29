@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "project-euler"
+version = "0.0.0"
+description = ""
+authors = ["Ondrej Winter <ondrej.winter@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
